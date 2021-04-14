@@ -101,7 +101,7 @@ namespace Racer_problem
             //a Nested IF
             //an IF within another IF
 
-            jif (racerTime1 < racerTime2)
+            if (racerTime1 < racerTime2)
             {
                 //racer1 faster than racer2
                 firstPlace = $"{racerName1} ({racerTime1})";
